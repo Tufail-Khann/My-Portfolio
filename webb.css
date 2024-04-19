@@ -1,0 +1,114 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: bisque;
+}
+
+
+
+.Aside{
+    width: 270px;
+    height: 100vh;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: azure;
+    
+}
+.main-content{
+    position: absolute;
+    left: 270px;
+    top: 0;
+}
+.logo{
+    
+    text-align: center;
+    position: relative;
+    top: 15px;
+    font-size: 50px;
+    padding: 10px;
+    text-decoration:none;
+}
+ul{
+    text-align: center;
+    position: relative;
+    top: 150px;
+    letter-spacing: 3px;
+    padding: 20px;
+    list-style: none;
+    font-size: 20px;
+    display: list-item;
+}
+li{
+    margin-top: 20px;
+    text-decoration: none;
+}
+.side{
+   background-color: black;
+}
+.my-name
+{
+    position: relative;
+    top: 200px;
+    left: 200px;
+    font-style: oblique;
+    font-weight: 900;
+    border-radius: 10px;   
+}
+.my-name span
+{
+    color:red;
+}
+.my-name:hover
+{
+    font-size: 35px;
+    /* background-color: rgb(178, 178, 185); */
+    transition: 0.s ease-in-out;
+}
+.profile
+{
+    width: 500px;
+    height: 480px;
+    border: 10px solid red;
+    position: relative;
+    top: 80px;
+    left: 600px;
+    background-image: url(./FaceApp_1682169293831~2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+.profile:hover
+{
+    width: 510px;
+    height: 500px;
+    border: 20px solid rgb(218, 17, 17);
+    transition: 1s ease-in-out;
+}
+.pic
+{
+    width: 200px;
+    height: 100vh;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 0px;
+    left: 1150px;
+}
+.pic ul
+{   
+    position: relative;
+    top: 20px;
+}
+.pic ul li{
+    margin-top: 60px;
+}
+li a:hover
+{
+    color: rgb(237, 15, 85);
+    font-size: x-large;
+}
